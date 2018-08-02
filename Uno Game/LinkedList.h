@@ -38,10 +38,6 @@ public:
 	T retrieve(unsigned int n) const; // Return the item value from the node in position n; 
 									  // PRECONDITION: n must be a valid list position (1<=n<=size)
 
-									  // WARNING: ONLY FOR TESTING IN LAB 8 !!!
-									  // The function below gives direct access to the Nodes 
-									  // Once a user gets direct access to list nodes,
-									  // internal list structure (e.g. linking) can be messed up.
 	inline Node* getHead() const { return m_head; }
 
 private:
